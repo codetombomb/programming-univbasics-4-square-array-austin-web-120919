@@ -8,10 +8,12 @@
 #end
     
 def square_array(array)
+  counter = 0
   new_array = []
-  count = 0
-  while count < array.length do
-    new_array << array[count] ** 2 
+  while counter < array.length do
+    new_array << array[counter] ** 2
+    counter += 1
   end
-  new_array
+  p new_array
 end
+    
